@@ -71,7 +71,7 @@ Each stage is a separate Rust module you build one at a time. By the end every s
 | `zoom`        | `for`             | Range-based for loop                           |
 | `from` / `to` | —                 | Range delimiters for `zoom`                    |
 | `nibble`      | `while`           | While loop                                     |
-| `wheek`       | `return`          | Return a value from a function                 |
+| `kick`       | `return`          | Return a value from a function                 |
 | `fluff`       | `class`           | Declare a class                                |
 | `adopt`       | `new`             | Create a new class instance                    |
 | `chin`        | `self` / `this`   | Reference the current instance inside a method |
