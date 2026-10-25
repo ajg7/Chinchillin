@@ -30,17 +30,17 @@ The orchestrator (the main session) passes each agent the milestone, the round n
 
 ### Agent nicknames
 
-Nicknames status: **not asked yet**
+Nicknames status: **asked**
 
 | Agent | Nickname |
 |---|---|
-| planner | |
-| coder | |
-| reviewer | |
-| adversary | |
-| gatekeeper | |
-| tester | |
-| teacher | |
+| planner | Mew |
+| coder | Pikachu |
+| reviewer | Dragonite |
+| adversary | Haunter |
+| gatekeeper | Magmar |
+| tester | Vaporeon |
+| teacher | Slowbro |
 
 - **First run:** while the status above says "not asked yet", the first time you're about to run any agent, stop and ask the user whether they want to give the agents nicknames (optional, any or all of them, e.g. Pokémon like Quack's). Fill in the table with their answers, leave the rest blank, change the status to "asked", and commit only if the user wants it committed. Then run the agent. Ask only once.
 - The user can add or change a nickname at any time ("call the tester Lapras"). Update the table when they do.
