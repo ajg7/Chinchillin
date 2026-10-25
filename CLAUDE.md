@@ -28,6 +28,24 @@ The agents are in `.claude/agents/`. Each milestone goes through them in this or
 
 The orchestrator (the main session) passes each agent the milestone, the round number and the files it needs. Agents don't commit unless AJ asked for a commit.
 
+### Agent nicknames
+
+Nicknames status: **not asked yet**
+
+| Agent | Nickname |
+|---|---|
+| planner | |
+| coder | |
+| reviewer | |
+| adversary | |
+| gatekeeper | |
+| tester | |
+| teacher | |
+
+- **First run:** while the status above says "not asked yet", the first time you're about to run any agent, stop and ask the user whether they want to give the agents nicknames (optional, any or all of them, e.g. Pokémon like Quack's). Fill in the table with their answers, leave the rest blank, change the status to "asked", and commit only if the user wants it committed. Then run the agent. Ask only once.
+- The user can add or change a nickname at any time ("call the tester Lapras"). Update the table when they do.
+- Refer to an agent by its nickname when it has one (e.g. "Lapras (tester)"), and tell each agent its nickname in the prompt you send it. The role name stays the agent's `name` for invoking it.
+
 ## Unity plugin and skills
 
 The official Unity plugin (`unity:*` skills) is installed. Check for a matching skill before doing Unity work by hand. The ones most likely to matter here:
