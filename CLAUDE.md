@@ -4,14 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Chinchillin is a Unity game made by AJ and Maria, who is new to coding. The project was just created from Unity's URP template, so nothing in `Assets/` is game code yet. `Assets/TutorialInfo/` and `Assets/Readme.asset` are template leftovers that can be deleted.
+Chinchillin is a Unity game made by AJ and Maria, who is new to coding. The project was just created from Unity's URP template; the `Assets/_Project/` folder structure and asmdefs are in place but there is no game code yet.
 
 **Source of truth: `docs/PLAN.md`** (not written yet). It will hold the game concept, phases and milestones. Before starting a milestone, read it. If work has no entry there, add one first; the `anthropic-skills:game-build-planner` skill builds this plan.
 
 - Unity **6000.6.5f1** (Unity 6), Universal Render Pipeline 17.6 with `PC_RPAsset` and `Mobile_RPAsset` quality tiers in `Assets/Settings/`.
 - **Input System 1.20** (`activeInputHandler: 1`, which means the new Input System only; the old `UnityEngine.Input` API won't work). Actions are in `Assets/InputSystem_Actions.inputactions`.
 - Installed packages worth knowing about: Test Framework 1.8, AI Navigation 2.0, Timeline, uGUI, Visual Scripting, Unity AI Assistant/Inference, and **Pipeline** (`com.unity.pipeline`), which lets the `unity` CLI drive the open Editor.
-- The only scene in the build is `Assets/Scenes/SampleScene.unity`.
+- The only scene in the build is `Assets/_Project/Scenes/SampleScene.unity`.
 
 ## The agent workflow
 

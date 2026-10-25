@@ -1,0 +1,17 @@
+{
+    "name": "Chinchillin.Tests.PlayMode",
+    "rootNamespace": "Chinchillin.Tests",
+    "references": [
+        "Chinchillin",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ]
+}

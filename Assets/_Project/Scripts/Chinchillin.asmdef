@@ -1,0 +1,8 @@
+{
+    "name": "Chinchillin",
+    "rootNamespace": "Chinchillin",
+    "references": [
+        "Unity.InputSystem"
+    ],
+    "autoReferenced": true
+}
