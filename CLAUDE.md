@@ -24,7 +24,7 @@ The agents are in `.claude/agents/`. Each milestone goes through them in this or
 5. **gatekeeper** writes `round-N-verdict.md`, which starts with `VERDICT: SATISFIED` or `VERDICT: REVISE`. On REVISE, go back to step 2 with N+1. After round 3, a REVISE includes `ESCALATE: yes`; stop and hand the open items to AJ.
 6. **tester** runs once the verdict is SATISFIED, writes tests from the milestone (not from the code), and writes `tester-report.md`.
 
-**teacher** sits outside the loop. Use it whenever Maria (or AJ) asks how or why something works: C# syntax, OOP, Unity concepts, gameplay patterns, or a piece of the project's own code. It explains, quizzes and gives hints, and writes Maria's code only if Maria asks it to. Its notes go in `docs/learning/`.
+**teacher** sits outside the loop. Use it whenever Maria (or AJ) asks how or why something works: C# syntax, OOP, Unity concepts, gameplay patterns, or a piece of the project's own code. It explains, quizzes and gives hints, and writes Maria's code only if she asks it to. Its notes go in `docs/learning/`.
 
 The orchestrator (the main session) passes each agent the milestone, the round number and the files it needs. Agents don't commit unless AJ asked for a commit.
 
